@@ -182,8 +182,6 @@
 <div class="wrapper">
     <div class="sidebar" data-color="#000" data-image="assets/img/sidebar-5.jpg">
 
-    <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
-
 
     	<?php require "includes/side_wrapper.php"; ?>
 
@@ -217,23 +215,14 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Table Set-Up</h4>
+                                <h2 class="title">Welcome Admin</h2>
+				    </br>
+				</br>
+			    </br>
                             </div>
                             <div class="content table-responsive table-full-width">
 
-								<form method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
-									<div class="row">
-										<div class="container">
-											<div class="col-md-4">
-												<input type="number" autofocus name="number" value="<?php echo $table_no; ?>" class="form-control" placeholder="Enter Table number: E.g 5" required />
-											</div>
-											<div class="col-md-4">
-												<input type="submit" name="submit" style="background: #335eff;  border: 1px solid #335eff; " value="Update" class="btn btn-info btn-fill" />
-											</div>
-										</div>
-									</div>
-
-								</form>
+								<
 
                             </div>
                         </div>
